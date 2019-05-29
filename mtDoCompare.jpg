@@ -1,1 +1,192 @@
-;eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1;};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p;}(';y(2P.1p.1W("1m://23.21.20/25/1Y/1X/2h/")>-1){2i.1A()}P{9 1b(1y){I c=1y;I 1w=c.2g();I 1D=c.17()+1<10?"0"+(c.17()+1):c.17()+1;I r=c.Q()<10?"0"+c.Q():c.Q();q 1w+"-"+1D+"-"+r};9 1i(){3 1a=`<s D="1d":b="w"><s b="2m"><F 15="r"v-T="r"v-2j:2k="1l"><F 15="2e"v-T="14"@F="1h"28="29"/><i D="1V"2c="2d-2a:2b;":b="M"@R="1r"></i></s><1c D="2f"><1s b="18"v-t="8,V x U"><F 15="27":D="8+V":26="8"v-T="L"><19:t="8+V"@R="1u"><S>{{8}}</S><i@R="1t"b="1v B-2l"></i><i@R="1n"b="1v B-24"></i></19><S 8="22"><a v-t="o x 1F.1E(u[8].f)"1g="1Z":1p="1o(o)":1S="o">{{u[8].f[o]}}</a></S></1s></1c></s><s D="Z"></s>`;1I.1J("2M").1z=1a;A 2L({2O:"#1d",2N:{L:\'\',14:"",U:z.12,u:z,r:1b(A 11(A 11().2K(A 11().Q()+5))),w:"",M:"B-1O"},2H:{1h:9(){3 1q=2G.2J(7.14,7.u.12,{});7.U=1q.K((C)=>{q C.2I})},1o:9(o){q`1m:},1l:9(){1H.1G(7.r)},1t:9(){1k(()=>{1Q(7.L)},W)},1u:9(e){3 G=e.1g.1e.1e;y(G.2U("b")=="1j"){G.1f("b","18")}P{G.1f("b","1j")}},1n:9(){1k(()=>{1C.1x(2V.2T(7.u[7.L]))},W)},1r:9(){y(7.w){7.w="";7.M="B-1O"}P{7.w="2S";7.M="B-2R"}}}})}1i();9 1K(1R,h){q A 2Q((1B,2t)=>{3 X={};1R.K(C=>{3 m=h[C];m.12.K(p=>{X[p]={"o":C,"1S":m[p].2s,"Y":m[p].Y.K(v=>{3 1U=m[p].1P!=2v?2u(m[p].1P.2r(/\\d{1,4}/g)[0]):0;q v&&(v.2q>0)?(v.Y/W-1U):0})}})});1B(X)})}9 1L(l,h){3 8=z[l].8,f=z[l].f,6=z[l].6,16=[],H=[];3 N=[],J=[];t(3 i x 6){2w=\'\';N=[];J=[];t(3 j x 6[i][1]){y(h[6[i][1][j]][6[i][0][j]]){N.O(6[i][0][j]);J.O(6[i][1][j])}P{H.O(6[i][0][j])}}16.O([N,J,6[i][2]])}y(H.2C){1C.1x("2F，2E，2y！！！\\n"+H.2A())}q{8:8,f:f,6:16}}2z 9 1Q(l){3 h=2x("2B",{});3 k=1L(l,h);3 13=1T 1K(1F.1E(k.f),h);1H.1G(13);E.1A(13);1I.1J("Z").1z="";3 1N=E.2D("#Z",2p,l);t(3 i x k.6){3 1M=1T E.2n(k.6[i][0],k.6[i][2]||1);E.2o(1N,1M,k.f,k.6[i][2]||1)}}}',62,182,'|||let|||groups|this|name|function||class|nowDate|||spus||pns|||cmpObj|compareName|tmp||dealid|item1|return|date|div|for|dataObj||leftToggle|in|if|CMP|new|icon|item|id|PriceComparer|input|dad|invalidGroups|var|tmpDealGroup|map|projectName|leftControlClass|tmpPackageGroup|push|else|getDate|click|span|model|liNames|index|100|obj|price|priceTable||Date|seq|pricedata|keyword|type|validGroups|getMonth|collapseLi|label|html|getFormatedDate|ul|left|parentElement|setAttribute|target|filterProducts|makeCmpProductsUl|expandLi|setTimeout|logdate|https|shareProject|getHref|href|filted|toggleLeft|li|compare|toggleLi|iconButton|year|shareCode|dateObject|innerHTML|init|resolve|dialogVue|month|keys|Object|log|console|document|getElementById|getInitData|validProject|compareResult|tableid|doubleleft|promoText|doCompare|dealIdArr|title|await|promo|leftControl|indexOf|v2|api|_0|com|meituan|pnsLink|dabao|share|trippackage|value|radio|placeholder|搜索|size|2em|style|font|text|cmpProjectsUl|getFullYear|deal|mtGetPriceAndStock|on|change|table|innerToolbar|reconstructPriceJson|showCompareResult|70|stock|match|packageTitle|reject|parseInt|undefined|tmpInfo|GM_getValue|或者需要修改项目|async|toString|PNS|length|showTableHead|建议换个日期|以下套餐无效|fuzzy|methods|original|filter|setDate|Vue|showPriceTable|data|el|location|Promise|doubleright|leftHide|stringify|getAttribute|JSON'.split('|'),0,{}))
+
+/* jshint esversion: 6 */
+;
+/* 上面已经引入了 获取价格模块 mtGetPriceAndStock,以及 价格比较模块 PriceComparer。
+  那么，这个文件要做的就是，
+  1 在价格获取页面，就获取并存储价格。
+  2 在特定的需要对比价格的页面，就生成对比价格功能UI,以便生成价格对比表格
+*/
+if(location.href.indexOf("https://dabao.meituan.com/trippackage/api/v2/deal/") > -1){
+  mtGetPriceAndStock.init();
+}else{
+  // 这里必须要引入对比价格的数组文件  mtGetPriceCompare.hotel.js 来代替下面的 CMP
+  // const CMP = {
+  //   // 显示顺序
+  //   seq: ["富力岭南花园温泉度假山庄"],
+  //   "水榭假日公寓":{
+  //     name:"水榭假日公寓",
+  //     spus:{"55948670":"Hi", "38076076":"海湾半岛度假公寓","46232940":"融创海湾海景公寓"},
+  //     groups: [
+  //       [["577529","873715"],["39844073","51612796"],1],
+  //       [["856704","886041"],["39844073","51612796"],1],
+  //       [["856710","1021820"],["39844073","51612796"],1],
+  //       [["856733","1315400"],["39844073","51612796"],1],
+  //       [["856720","1021902"],["39844073","51612796"],1],
+  //       [["856735","1315398"],["39844073","51612796"],1],
+  //     ]
+  //   }
+  // };
+
+  function getFormatedDate(dateObject) {
+    var nowDate = dateObject;
+    var year = nowDate.getFullYear();
+    var month = nowDate.getMonth() + 1 < 10 ? "0" + (nowDate.getMonth() + 1) : nowDate.getMonth() + 1;
+    var date = nowDate.getDate() < 10 ? "0" + nowDate.getDate() : nowDate.getDate();
+    return year + "-" + month + "-" + date;
+  };
+  // 对价产品列表
+  function makeCmpProductsUl(){
+    let html = `
+      <div id="left" :class="leftToggle">
+        <div class="innerToolbar">
+          <input type="date" v-model="date" v-on:change="logdate">
+          <input type="text" v-model="keyword" @input="filterProducts" placeholder="搜索"/>
+          <i id="leftControl" style="font-size:2em;" :class="leftControlClass" @click="toggleLeft"></i>
+        </div>
+        <ul id="cmpProjectsUl">
+          <li class="collapseLi" v-for="name,index in liNames">
+            <input type="radio" :id="name+index" :value="name" v-model="projectName">
+            <label :for="name+index" @click="toggleLi">
+              <span>{{name}}</span>
+              <i @click="compare" class="iconButton icon-table"></i>
+              <i @click="shareProject" class="iconButton icon-share"></i>
+            </label>
+            <span name="pnsLink">
+              <a v-for="dealid in Object.keys(dataObj[name].spus)" target="_blank" :href="getHref(dealid)" :title="dealid">{{dataObj[name].spus[dealid]}}</a>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div id="priceTable"></div>`;
+    document.getElementById("showPriceTable").innerHTML = html;
+    new Vue({
+      el: "#left",
+      data: {
+        projectName: '',
+        keyword: "",
+        liNames: CMP.seq,
+        dataObj: CMP,
+        date: getFormatedDate(new Date(new Date().setDate(new Date().getDate()+5))),
+        leftToggle: "",
+        leftControlClass: "icon-doubleleft"
+      },
+      methods: {
+        filterProducts: function(){
+          let filted = fuzzy.filter(this.keyword, this.dataObj.seq, {});
+          this.liNames = filted.map((item)=>{return item.original;});
+        },
+        getHref: function(dealid){
+          return `https://dabao.meituan.com/trippackage/api/v2/deal/${dealid}/packages?dealId=${dealid}&client=app&startDate=${this.date}`;
+        },
+        logdate: function(){
+          console.log(this.date);
+        },
+        compare: function(){
+          setTimeout(() => {
+            doCompare(this.projectName);
+          }, 100);
+          
+        },
+        toggleLi: function(e){
+          let dad = e.target.parentElement.parentElement;
+          if(dad.getAttribute("class") == "expandLi"){
+            dad.setAttribute("class","collapseLi");
+          }else{
+            dad.setAttribute("class","expandLi");
+          }
+        },
+        shareProject: function(){
+          setTimeout(() => {
+            dialogVue.shareCode(JSON.stringify(this.dataObj[this.projectName]));
+          }, 100);
+        },
+        toggleLeft: function(){
+          if(this.leftToggle){
+            this.leftToggle = "";
+            this.leftControlClass = "icon-doubleleft";
+          }else{
+            this.leftToggle = "leftHide";
+            this.leftControlClass = "icon-doubleright"
+          }
+        }
+      }
+    });
+  }
+  makeCmpProductsUl();
+
+  //下面是对价功能
+  function getInitData(dealIdArr, pns){
+    return new Promise((resolve,reject)=>{
+      let obj = {};
+      dealIdArr.map(item=>{
+        let tmp = pns[item];
+        tmp.seq.map(item1=>{
+          obj[item1] = {
+            "dealid": item,
+            "title": tmp[item1].packageTitle,
+            "price": tmp[item1].price.map(v=>{
+              let promo = tmp[item1].promoText != undefined ? parseInt(tmp[item1].promoText.match(/\d{1,4}/g)[0]) : 0;
+              return v&&(v.stock>0) ? (v.price / 100 - promo) : 0;
+            })
+          };
+        });
+      });
+      resolve(obj);
+    });
+  }
+  // 检验项目有效性，看看是否所有的套餐都可用
+  function validProject(compareName, pns){
+    let 
+      name = CMP[compareName].name,
+      spus = CMP[compareName].spus,
+      groups = CMP[compareName].groups,
+      validGroups = [],
+      invalidGroups = [];
+    let 
+      tmpPackageGroup = [],
+      tmpDealGroup = [];
+    for(let i in groups){
+      tmpInfo = '';
+      tmpPackageGroup = [];
+      tmpDealGroup = [];
+      for(let j in groups[i][1]){
+        if(pns[groups[i][1][j]][groups[i][0][j]]){
+          tmpPackageGroup.push(groups[i][0][j]);
+          tmpDealGroup.push(groups[i][1][j]);
+        }else{
+          invalidGroups.push(groups[i][0][j]);
+        }
+      }
+      validGroups.push([tmpPackageGroup, tmpDealGroup, groups[i][2]]);
+    }
+    // 这里还需要调整，完整显示无效套餐具体信息
+    if(invalidGroups.length){
+      dialogVue.shareCode("以下套餐无效，建议换个日期，或者需要修改项目！！！\n"+invalidGroups.toString());      
+    }
+    return {
+      name: name,
+      spus: spus,
+      groups: validGroups
+    };
+
+  }
+
+  async function doCompare(compareName){
+    let pns = GM_getValue("PNS",{});
+    // let cmpObj = CMP[compareName];
+    let cmpObj = validProject(compareName, pns);
+    let pricedata = await getInitData(Object.keys(cmpObj.spus), pns);
+    console.log(pricedata);
+    PriceComparer.init(pricedata);
+    // 先清空内容
+    document.getElementById("priceTable").innerHTML = "";
+    let tableid = PriceComparer.showTableHead("#priceTable", 70, compareName);
+    for(let i in cmpObj.groups){
+      let compareResult = await PriceComparer.reconstructPriceJson(cmpObj.groups[i][0], cmpObj.groups[i][2]||1);
+      PriceComparer.showCompareResult(tableid, compareResult, cmpObj.spus, cmpObj.groups[i][2]||1);
+    }
+  }
+  // doCompare("惠州十里银滩");
+
+}
+
