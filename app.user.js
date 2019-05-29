@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         美团商家工具集
 // @namespace    https://greasyfork.org/zh-CN/users/104201
-// @version      1
+// @version      1.1
 // @updateURL    https://raw.githubusercontent.com/woolition/himudy/master/app.user.js
 // @downloadURL  https://raw.githubusercontent.com/woolition/himudy/master/app.user.js
 // @description  美团景酒商家工具，不对外
