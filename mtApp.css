@@ -205,6 +205,9 @@ fieldset{ border-radius: 5px; border: 1px solid #33333360; padding: 5px; margin:
 #comparePriceProject div[name='compareProductsPackages']{left:10;}
 #comparePriceProject div[name='comparePackagesGroups']{right:0;}
 
+/* #showPriceTable CSS */
+#priceTable{overflow: auto;}
+
 /*  productInfo CSS  */
 #productInfoDetail iframe{resize:vertical;}
 
