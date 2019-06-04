@@ -78,6 +78,18 @@ SVG 转码方案来自 张鑫旭的工具 https://www.zhangxinxu.com/sp/svgo/
     width: 1em; display: inline-block;
     content: url("data:image/svg+xml,%3Csvg class='icon' style='width:1em;height:1em;vertical-align:middle' viewBox='0 0 1024 1024' xmlns='http://www.w3.org/2000/svg' fill='currentColor' overflow='hidden'%3E%3Cpath d='M168 504.2c1-43.7 10-86.1 26.9-126 17.3-41 42.1-77.7 73.7-109.4S337 212.3 378 195c42.4-17.9 87.4-27 133.9-27s91.5 9.1 133.8 27c40.9 17.3 77.7 42.1 109.3 73.8 9.9 9.9 19.2 20.4 27.8 31.4l-60.2 47c-5.3 4.1-3.5 12.5 3 14.1l175.7 43c5 1.2 9.9-2.6 9.9-7.7l.8-180.9c0-6.7-7.7-10.5-12.9-6.3l-56.4 44.1C765.8 155.1 646.2 92 511.8 92 282.7 92 96.3 275.6 92 503.8c-.1 4.5 3.5 8.2 8 8.2h60c4.4 0 7.9-3.5 8-7.8zm756 7.8h-60c-4.4 0-7.9 3.5-8 7.8-1 43.7-10 86.1-26.9 126-17.3 41-42.1 77.8-73.7 109.4S687 811.7 646 829c-42.4 17.9-87.4 27-133.9 27s-91.5-9.1-133.9-27c-40.9-17.3-77.7-42.1-109.3-73.8-9.9-9.9-19.2-20.4-27.8-31.4l60.2-47c5.3-4.1 3.5-12.5-3-14.1l-175.7-43c-5-1.2-9.9 2.6-9.9 7.7l-.7 181c0 6.7 7.7 10.5 12.9 6.3l56.4-44.1C258.2 868.9 377.8 932 512.2 932c229.2 0 415.5-183.7 419.8-411.8.1-4.5-3.5-8.2-8-8.2z'/%3E%3C/svg%3E");
 }
+.icon-code:before {
+    width: 1em; display: inline-block;
+    content: url("data:image/svg+xml,%3Csvg class='icon' style='width:1em;height:1em;vertical-align:middle' viewBox='0 0 1024 1024' xmlns='http://www.w3.org/2000/svg' fill='currentColor' overflow='hidden'%3E%3Cpath d='M438.4 849.1l222.7-646.7c.2-.5.3-1.1.4-1.6L438.4 849.1zm222.8-680.4h-67.5c-3.4 0-6.5 2.2-7.6 5.4L354.7 846c-.3.8-.4 1.7-.4 2.6 0 4.4 3.6 8 8 8h67.8c3.4 0 6.5-2.2 7.6-5.4l.7-2.1 223.1-648.3 7.4-21.4c.3-.8.4-1.7.4-2.6-.1-4.5-3.6-8.1-8.1-8.1zm293.4 333.4c-.8-1-1.7-1.9-2.7-2.7l-219-171.3c-3.5-2.7-8.5-2.1-11.2 1.4-1.1 1.4-1.7 3.1-1.7 4.9v81.3c0 2.5 1.1 4.8 3.1 6.3l115 90-115 90c-1.9 1.5-3.1 3.8-3.1 6.3v81.3c0 4.4 3.6 8 8 8 1.8 0 3.5-.6 4.9-1.7l219-171.3c6.9-5.4 8.2-15.5 2.7-22.5zm-663.5-174l-219 171.3c-1 .8-1.9 1.7-2.7 2.7-5.4 7-4.2 17 2.7 22.5l219 171.3c1.4 1.1 3.1 1.7 4.9 1.7 4.4 0 8-3.6 8-8v-81.3c0-2.5-1.1-4.8-3.1-6.3l-115-90 115-90c1.9-1.5 3.1-3.8 3.1-6.3v-81.3c0-1.8-.6-3.5-1.7-4.9-2.7-3.5-7.7-4.1-11.2-1.4z'/%3E%3C/svg%3E");
+}
+.icon-success:before {
+    width: 1em; display: inline-block;
+    content: url("data:image/svg+xml,%3Csvg class='icon' style='width:1em;height:1em;vertical-align:middle' viewBox='0 0 1024 1024' xmlns='http://www.w3.org/2000/svg' fill='currentColor' overflow='hidden'%3E%3Cpath d='M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8c12.7 17.7 39 17.7 51.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z'/%3E%3Cpath d='M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z'/%3E%3C/svg%3E");
+}
+.icon-fail:before {
+    width: 1em; display: inline-block;
+    content: url("data:image/svg+xml,%3Csvg class='icon' style='width:1em;height:1em;vertical-align:middle' viewBox='0 0 1024 1024' xmlns='http://www.w3.org/2000/svg' fill='currentColor' overflow='hidden'%3E%3Cpath d='M685.4 354.8c0-4.4-3.6-8-8-8l-66 .3L512 465.6l-99.3-118.4-66.1-.3c-4.4 0-8 3.5-8 8 0 1.9.7 3.7 1.9 5.2l130.1 155L340.5 670c-1.2 1.5-1.9 3.3-1.9 5.2 0 4.4 3.6 8 8 8l66.1-.3L512 564.4l99.3 118.4 66 .3c4.4 0 8-3.5 8-8 0-1.9-.7-3.7-1.9-5.2L553.5 515l130.1-155c1.2-1.4 1.8-3.3 1.8-5.2z'/%3E%3Cpath d='M512 65C264.6 65 64 265.6 64 513s200.6 448 448 448 448-200.6 448-448S759.4 65 512 65zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z'/%3E%3C/svg%3E");
+}
 
 /* 滚动条 */
 ::-webkit-scrollbar { width: 8px; height: 8px;} /*滚动条宽度*/
@@ -102,23 +114,89 @@ SVG 转码方案来自 张鑫旭的工具 https://www.zhangxinxu.com/sp/svgo/
     box-shadow: 0 0 2px 2px deepskyblue;
     cursor: pointer;
 }
-.innerToolbar{box-shadow: 0 1px 5px 0px #999;}
+.innerToolbar{
+    height: 2em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 1px 5px 0px #999;
+    margin-bottom: 5px;
+}
+.column2{ width: 200%; }
+.innerToolbar input{ flex-shrink: 1; }
 input:checked + label{background: lightskyblue;}
-input[type='radio']{display: none;}
-
-/*  common CSS  */
 li{list-style:none;}
 button{border-radius:3px;border:1px solid gray; padding: 3px 5px;background:#fff;box-shadow: 1px 1px 1px 1px skyblue;cursor:pointer;}
 button:hover{background:deepskyblue;color:#fff;}
-#main{position:fixed;padding-left:5px;top:30px;}
-#main>div{overflow:auto;height:100%;width:100%;}
-nav{background: deepskyblue; width: 100%; position: fixed; top: 0px; left: 0; max-height: 30px;}
 fieldset{border-radius: 5px;}
 label:hover{background:#00BFFF80;}
+/* INPUT */
+input[type='radio'],input[type='checkbox']{display: none;}
 input[type='date'],input[type='text']{margin: 5px 10px; font-size: 1em; border-radius: 3px; border: 1px solid #aaa; font-family: "微软雅黑";}
-/* input[type='text']{margin: 5px; font-size: 1em; border-radius: 3px; border: 1px solid #aaa; max-width:140px;} */
+.inputTiny{width: 2em;}
+.inputShort{width: 6em;}
+.inputMedium{width: 10em;}
+.inputLong{width: 20em;}
+
+
+/*  common CSS  */
+body{
+    display: grid;
+    grid-template-rows: 2em auto;
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    color: #2a3a40;
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    background: deepskyblue;
+    flex-wrap: nowrap;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+nav>span{
+    padding: 0.25em 0.5em;
+    background: #1a2a3a;
+    color: white;
+    font-weight: bolder;
+    margin: 0 0.5em;
+    cursor:pointer;
+    border-radius: 5px;
+}
+nav>span:hover{color:cyan;}
+#main{
+    overflow-y: auto;
+    position:absolute;
+    top: 2em;
+    grid-template-rows: repeat(4,100%);
+
+}
+.hide{display:none !important;}
+.show{display: block !important;}
+
+#comparePriceProject,
+#showPriceTable,
+#productInfo,
+#manageData{
+    position: fixed;
+    height:100%;
+    width: 100%;
+}
+#followPrice{
+    position: relative;
+}
 
 /* comparePriceProject  CSS */
+#comparePriceProject{
+    display: grid;
+    grid-template-rows: 2em auto;
+    grid-template-columns: 50% 50%;
+}
+
 #comparePriceProject li{list-style:none;font-size:0.7em;border-radius: 3px; margin: 2px;cursor: move;}
 li:hover{background:lightskyblue;}
 fieldset{ border-radius: 5px; border: 1px solid #33333360; padding: 5px; margin: 5px; min-height: 30px; }
@@ -126,7 +204,6 @@ fieldset{ border-radius: 5px; border: 1px solid #33333360; padding: 5px; margin:
 #comparePriceProject div[name='comparePackagesGroups'] { top:70px; position:fixed; width:49%; height: 89%; overflow-y: scroll; }
 #comparePriceProject div[name='compareProductsPackages']{left:10;}
 #comparePriceProject div[name='comparePackagesGroups']{right:0;}
-#comparePriceProject div[name='comparePackagesGroups'] input{width:25px;}
 
 /*  productInfo CSS  */
 #productInfoDetail iframe{resize:vertical;}
@@ -138,15 +215,13 @@ table tr td.o{background-color: #D3DB60;}
 table tr:first-of-type td.o{ background-color: #f33; }
 td{ white-space: nowrap; max-width: 150px; overflow: hidden;}
 table *{font-size: 0.8em;}
-/* #comparePriceInput{position: fixed; top: 35px; left: 10px;} */
 
-.hiCheap{}
+/* .hiCheap{} */
 .hiExpensive{ background-color: #f33; }
 .enemyCheap{background-color: #D3DB60;}
 #cmpProductsUl fieldset label{display: inline-block;width: 430px;}
 #cmpProductsUl .collapseFieldset a{display: none;}
 #cmpProductsUl .expandFieldset a{display: inline;}
-nav>span{ display: inline-block; padding: 2px 5px; margin: 0 10px; background-color: #555; color: white; border-radius: 5px; font-size: 1.1em; font-weight: bold; cursor:pointer;}
 
 /*  manageData CSS */ 
 #cmpProjectsUl li:hover,
@@ -173,15 +248,14 @@ nav>span{ display: inline-block; padding: 2px 5px; margin: 0 10px; background-co
     background:white; font-size:0.9em; box-shadow: 5px 0px 5px 0px #bbb;
 }
 .leftHide{
-    left:-600px;
+    left:-605px;
     margin-right: 50px;
 }
 
 #leftControl{
     position: fixed;
-    left: 580px;
-    height: 33px;
-    top: 30px;
+    left: 570px;
+    font-size: 2em;
     border-left: 1px dashed #bbb;
     cursor: pointer;
 }
@@ -203,9 +277,90 @@ li[data-background='#F9C'] {background: #F9C;}
 li[data-background='#FC9'] {background: #FC9;}
 li[data-background='#9C6'] {background: #9C6;}
 li[data-background='#F99'] {background: #F99;}
-li[data-background='#669'] {background: #669;}
+li[data-background='#669'] {background: #ccf;}
 li[data-background='#FC0'] {background: #FC0;}
 li[data-background='#F60'] {background: #F60;}
 li[data-background='#CC3'] {background: #CC3;}
+
+/* li[data-background='#CC3'] {background: #32ff7e;}
+li[data-background='#CC3'] {background: #18dcff;}
+li[data-background='#CC3'] {background: #7d5fff;}
+li[data-background='#CC3'] {background: #ffaf40;}
+li[data-background='#CC3'] {background: #ffcccc;}
+li[data-background='#CC3'] {background: #cd84f1;}
+li[data-background='#CC3'] {background: #fffa65;}
+li[data-background='#CC3'] {background: #ccff66;} */
+
+/* #followPrice CSS  */
+#tar {
+    display: grid;
+    grid-template-rows: repeat(8, 3em);
+    grid-gap: 2px;
+    padding-top: 2px;
+    font-size: 0.9em;
+    font-style: normal;
+    overflow: auto;
+    color: #34495e;
+    background: #ddd;
+}
+
+.priceContainer{
+    display: grid;
+    grid-template-rows: 3.5em;
+    grid-template-columns: repeat(90, 3.5em);
+    grid-auto-columns: 3.5em;
+    grid-gap: 2px;
+    place-items: center;
+    place-content: center;
+}
+
+.bagaPrice input:checked + label{
+    background: #ffea00 !important;
+}
+#tar b, #tar label, #tar span:before, #tar input[type='text']{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 3.5em;
+    height: 3em;
+    background: white;
+    border:0;
+}
+
+#tar div[name="hiPrice"] input[data-cheap="cheap"]{background: #7bf70042;}
+#tar div[name="hiPrice"] input[data-cheap="expensive"]{background: #FFC7CE; color: #BE0006;}
+#tar div[name="bagaPrice"] input[data-cheap="cheap"]+label{background: #FFE699;}
+/* #tar div[name="bagaPrice"] input[data-cheap="expensive"]+label{background: #FFE699;} */
+
+.success{background: #67C23A; color: white;}
+.fail{background: #F56C6C; color: white;}
+#tar input[data-change='1']{background: #ffc107 !important;}
+span[data-weekday]:before{float: left;background: #ffffff;}
+span[data-weekday='0']:before{content:'日';}
+span[data-weekday='1']:before{content:'一';}
+span[data-weekday='2']:before{content:'二';}
+span[data-weekday='3']:before{content:'三';}
+span[data-weekday='4']:before{content:'四';}
+span[data-weekday='5']:before{content:'五';background: #dfe4ea !important;}
+span[data-weekday='6']:before{content:'六';background: #ced6e0 !important;}
+
+
+#opt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+}
+.optField{
+    display: grid;
+    grid-template-rows: repeat(5, 4em);
+    background: #ecf0f1;
+}
+.optField button{
+    margin: 5px 0px;
+}
+
 
 `);
