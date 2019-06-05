@@ -295,14 +295,20 @@ li[data-background='#CC3'] {background: #fffa65;}
 li[data-background='#CC3'] {background: #ccff66;} */
 
 /* #followPrice CSS  */
-#tar {
+#dataBlock{
+    display: grid;
+    grid-template-columns: 3.5em auto;
+    position: relative;
+}
+
+#tar,#spuName {
     display: grid;
     grid-template-rows: repeat(8, 3em);
     grid-gap: 2px;
     padding-top: 2px;
+    position: relative;
     font-size: 0.9em;
     font-style: normal;
-    overflow: auto;
     color: #34495e;
     background: #ddd;
 }
@@ -320,7 +326,7 @@ li[data-background='#CC3'] {background: #ccff66;} */
 .bagaPrice input:checked + label{
     background: #ffea00 !important;
 }
-#tar b, #tar label, #tar span:before, #tar input[type='text']{
+#tar b, #tar label, #tar span:before, #tar input[type='text'], #spuName b{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -331,7 +337,7 @@ li[data-background='#CC3'] {background: #ccff66;} */
     border:0;
 }
 
-#tar div[name="hiPrice"] input[data-cheap="cheap"]{background: #7bf70042;}
+#tar div[name="hiPrice"] input[data-cheap="cheap"]{background: #DDFDBD;}
 #tar div[name="hiPrice"] input[data-cheap="expensive"]{background: #FFC7CE; color: #BE0006;}
 #tar div[name="bagaPrice"] input[data-cheap="cheap"]+label{background: #FFE699;}
 /* #tar div[name="bagaPrice"] input[data-cheap="expensive"]+label{background: #FFE699;} */
@@ -351,7 +357,7 @@ span[data-weekday='6']:before{content:'六';background: #ced6e0 !important;}
 
 #opt{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
     position: fixed;
     bottom: 10px;
@@ -364,6 +370,6 @@ span[data-weekday='6']:before{content:'六';background: #ced6e0 !important;}
 .optField button{
     margin: 5px 0px;
 }
-
+#opt input[type="checkbox"],#opt input[type="checkbox"]{display: inline-block;}
 
 `);

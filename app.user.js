@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         美团商家工具集
 // @namespace    https://raw.githubusercontent.com/woolition/himudy/master/app.user.js
-// @version      2.0
+// @version      2.2
 // @updateURL    https://raw.githubusercontent.com/woolition/himudy/master/app.user.js
 // @downloadURL  https://raw.githubusercontent.com/woolition/himudy/master/app.user.js
 // @description  美团景酒商家工具，不对外
@@ -21,17 +21,17 @@
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/Sortable.min.js
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/fuzzy.min.js
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/mtApp.css
-// @require      https://raw.githubusercontent.com/woolition/himudy/master/manageData.2019-6-4.jpg
+// @require      https://raw.githubusercontent.com/woolition/himudy/master/manageData.2019-6-5.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/mtapp.UI.2019-6-4.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/dialog.2019-6-4.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/mtGetPriceAndStock.2019-6-4.jpg
-// @require      https://raw.githubusercontent.com/woolition/himudy/master/makeComparePorject.2019-6-4.jpg
-// @require      https://raw.githubusercontent.com/woolition/himudy/master/PriceComparer.2019-6-4.jpg
-// @require      https://raw.githubusercontent.com/woolition/himudy/master/mtDoCompare.2019-6-4.jpg
+// @require      https://raw.githubusercontent.com/woolition/himudy/master/makeComparePorject.2019-6-5.jpg
+// @require      https://raw.githubusercontent.com/woolition/himudy/master/PriceComparer.2019-6-5.jpg
+// @require      https://raw.githubusercontent.com/woolition/himudy/master/mtDoCompare.2019-6-5.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/productInfo.2019-6-4.jpg
-// @require      https://raw.githubusercontent.com/woolition/himudy/master/dragSelect.2019-6-4.jpg
+// @require      https://raw.githubusercontent.com/woolition/himudy/master/dragSelect.2019-6-5.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/syncPNS.2019-6-4.jpg
-// @require      https://raw.githubusercontent.com/woolition/himudy/master/followPrice.2019-6-4.jpg
+// @require      https://raw.githubusercontent.com/woolition/himudy/master/followPrice.2019-6-5.jpg
 // ==/UserScript==
 ;/* jshint esversion: 6 */
 (function() {
