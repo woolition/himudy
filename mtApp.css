@@ -90,6 +90,10 @@ SVG 转码方案来自 张鑫旭的工具 https://www.zhangxinxu.com/sp/svgo/
     width: 1em; display: inline-block;
     content: url("data:image/svg+xml,%3Csvg class='icon' style='width:1em;height:1em;vertical-align:middle' viewBox='0 0 1024 1024' xmlns='http://www.w3.org/2000/svg' fill='currentColor' overflow='hidden'%3E%3Cpath d='M685.4 354.8c0-4.4-3.6-8-8-8l-66 .3L512 465.6l-99.3-118.4-66.1-.3c-4.4 0-8 3.5-8 8 0 1.9.7 3.7 1.9 5.2l130.1 155L340.5 670c-1.2 1.5-1.9 3.3-1.9 5.2 0 4.4 3.6 8 8 8l66.1-.3L512 564.4l99.3 118.4 66 .3c4.4 0 8-3.5 8-8 0-1.9-.7-3.7-1.9-5.2L553.5 515l130.1-155c1.2-1.4 1.8-3.3 1.8-5.2z'/%3E%3Cpath d='M512 65C264.6 65 64 265.6 64 513s200.6 448 448 448 448-200.6 448-448S759.4 65 512 65zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z'/%3E%3C/svg%3E");
 }
+.icon-unordered-list:before {
+    width: 1em; display: inline-block;
+    content: url("data:image/svg+xml,%3Csvg class='icon' style='width:1em;height:1em;vertical-align:middle' viewBox='0 0 1024 1024' xmlns='http://www.w3.org/2000/svg' fill='currentColor' overflow='hidden'%3E%3Cpath d='M912 192H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 284H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 284H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM104 228a56 56 0 1 0 112 0 56 56 0 1 0-112 0zm0 284a56 56 0 1 0 112 0 56 56 0 1 0-112 0zm0 284a56 56 0 1 0 112 0 56 56 0 1 0-112 0z'/%3E%3C/svg%3E");
+}
 
 /* 滚动条 */
 ::-webkit-scrollbar { width: 8px; height: 8px;} /*滚动条宽度*/
@@ -126,8 +130,9 @@ SVG 转码方案来自 张鑫旭的工具 https://www.zhangxinxu.com/sp/svgo/
 .innerToolbar input{ flex-shrink: 1; }
 input:checked + label{background: lightskyblue;}
 li{list-style:none;}
-button{border-radius:3px;border:1px solid gray; padding: 3px 5px;background:#fff;box-shadow: 1px 1px 1px 1px skyblue;cursor:pointer;}
+button, input[type="button"]{border-radius:3px;border:1px solid gray; padding: 3px 5px;background:#fff;box-shadow: 1px 1px 1px 1px skyblue;cursor:pointer;}
 button:hover{background:deepskyblue;color:#fff;}
+button:disabled, input[type="button"]:disabled{cursor: not-allowed; box-shadow: 1px 1px 1px 1px #ddd; color:#ddd; border:1px solid;}
 fieldset{border-radius: 5px;}
 label:hover{background:#00BFFF80;}
 /* INPUT */
@@ -221,7 +226,7 @@ table *{font-size: 0.8em;}
 
 /* .hiCheap{} */
 .hiExpensive{ background-color: #f33; }
-.enemyCheap{background-color: #D3DB60;}
+.enemyCheap{background-color: #fffabb;}
 #cmpProductsUl fieldset label{display: inline-block;width: 430px;}
 #cmpProductsUl .collapseFieldset a{display: none;}
 #cmpProductsUl .expandFieldset a{display: inline;}
@@ -285,15 +290,6 @@ li[data-background='#FC0'] {background: #FC0;}
 li[data-background='#F60'] {background: #F60;}
 li[data-background='#CC3'] {background: #CC3;}
 
-/* li[data-background='#CC3'] {background: #32ff7e;}
-li[data-background='#CC3'] {background: #18dcff;}
-li[data-background='#CC3'] {background: #7d5fff;}
-li[data-background='#CC3'] {background: #ffaf40;}
-li[data-background='#CC3'] {background: #ffcccc;}
-li[data-background='#CC3'] {background: #cd84f1;}
-li[data-background='#CC3'] {background: #fffa65;}
-li[data-background='#CC3'] {background: #ccff66;} */
-
 /* #followPrice CSS  */
 #dataBlock{
     display: grid;
@@ -326,7 +322,11 @@ li[data-background='#CC3'] {background: #ccff66;} */
 .bagaPrice input:checked + label{
     background: #ffea00 !important;
 }
-#tar b, #tar label, #tar span:before, #tar input[type='text'], #spuName b{
+.date input:checked + label{
+    background: skyblue !important;
+}
+/* #tar span:before, */
+#tar b, #tar label, #tar input[type='text'], #spuName b{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -339,21 +339,20 @@ li[data-background='#CC3'] {background: #ccff66;} */
 
 #tar div[name="hiPrice"] input[data-cheap="cheap"]{background: #DDFDBD;}
 #tar div[name="hiPrice"] input[data-cheap="expensive"]{background: #FFC7CE; color: #BE0006;}
-#tar div[name="bagaPrice"] input[data-cheap="cheap"]+label{background: #FFE699;}
+#tar div[name="bagaPrice"] input[data-cheap="cheap"]+label{background: #fffabb;}
 /* #tar div[name="bagaPrice"] input[data-cheap="expensive"]+label{background: #FFE699;} */
 
-.success{background: #67C23A; color: white;}
-.fail{background: #F56C6C; color: white;}
+.success{background: #67C23A !important; color: white;}
+.fail{background: #F56C6C !important; color: white;}
+#tar b[data-profitable="0"]{background: #F56C6C; color: white;}
 #tar input[data-change='1']{background: #ffc107 !important;}
-span[data-weekday]:before{float: left;background: #ffffff;}
-span[data-weekday='0']:before{content:'日';}
-span[data-weekday='1']:before{content:'一';}
-span[data-weekday='2']:before{content:'二';}
-span[data-weekday='3']:before{content:'三';}
-span[data-weekday='4']:before{content:'四';}
-span[data-weekday='5']:before{content:'五';background: #dfe4ea !important;}
-span[data-weekday='6']:before{content:'六';background: #ced6e0 !important;}
 
+#tar label[data-weekday='5']{color: hotpink !important;}
+#tar label[data-weekday='6']{color: deeppink !important;}
+
+.dragSelected {
+    box-shadow: 0px 0 5px 3px #00f !important;
+}
 
 #opt{
     display: grid;
