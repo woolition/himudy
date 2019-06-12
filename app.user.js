@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         美团商家工具集
 // @namespace    https://raw.githubusercontent.com/woolition/himudy/master/app.user.js
-// @version      2.3
+// @version      2.4
 // @updateURL    https://raw.githubusercontent.com/woolition/himudy/master/app.user.js
 // @downloadURL  https://raw.githubusercontent.com/woolition/himudy/master/app.user.js
 // @description  美团景酒商家工具，不对外 更新时间 2019-6-8 16:35
