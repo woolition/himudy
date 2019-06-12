@@ -1,23 +1,3 @@
-// ==UserScript==
-// @name         马蜂窝长隆销量统计
-// @namespace    http://tampermonkey.net/
-// @version      0.2
-// @updateURL    https://raw.githubusercontent.com/woolition/himudy/master/wfm/dailySold/getSold.js
-// @downloadURL  https://raw.githubusercontent.com/woolition/himudy/master/wfm/dailySold/getSold.js
-// @description  每天更新长隆销量数据
-// @author       You
-// @include      http://www.mafengwo.cn/search/q.php?q=*&t=sales*
-// @noframes
-// @run-at       document-end
-// @grant        GM_addStyle
-// @grant        GM_setValue
-// @grant        GM_getValue
-// @grant        GM_xmlhttpRequest
-// @grant        GM_registerMenuCommand
-// @require      https://cdn.bootcss.com/vue/2.6.10/vue.min.js
-// @require      https://raw.githubusercontent.com/woolition/himudy/master/wfm/dailySold/monitorList.js
-// @require      https://raw.githubusercontent.com/woolition/greasyforks/master/common/nacl.js
-// ==/UserScript==
 /* jshint esversion: 6 */
 ;
 (function() {
