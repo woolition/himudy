@@ -71,7 +71,7 @@
         </tr>
         <tr v-for="tr in trs">
           <td>{{tr[1]}}</td>
-          <td>{{tr[0]}}</td>
+          <td @dblclick="openLink(tr[0])">{{tr[0]}}</td>
           <!--
           <td>{{svp3[tr[0]].sold}}</td>
           <td>{{svp2[tr[0]].sold}}</td>
@@ -96,6 +96,9 @@
           svp3: SoldViewPrice[Nacl.formatDate(new Date(), -2)],
         },
         methods:{
+          openLink(id){
+            window.open(`http://www.mafengwo.cn/sales/${id}.html`, "_blank");
+          },
           soldDiff2(id){
             if(this.svp3[id] && this.svp2[id] && this.svp3[id].sold!= null && this.svp2[id].sold!= null ){
               return this.svp2[id].sold - this.svp3[id].sold;
