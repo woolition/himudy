@@ -72,9 +72,14 @@
         <tr v-for="tr in trs">
           <td>{{tr[1]}}</td>
           <td>{{tr[0]}}</td>
+          <!--
           <td>{{svp3[tr[0]].sold}}</td>
           <td>{{svp2[tr[0]].sold}}</td>
           <td>{{svp1[tr[0]].sold}}</td>
+          -->
+          <td>{{svp3[tr[0]] ? svp3[tr[0]].sold : ""}}</td>
+          <td>{{svp2[tr[0]] ? svp2[tr[0]].sold : ""}}</td>
+          <td>{{svp1[tr[0]] ? svp1[tr[0]].sold : ""}}</td>
           <td>{{soldDiff2(tr[0])}}</td>
           <td>{{soldDiff1(tr[0])}}</td>
         </tr>
@@ -92,14 +97,14 @@
         },
         methods:{
           soldDiff2(id){
-            if(this.svp3[id].sold!= null && this.svp2[id].sold!= null ){
+            if(this.svp3[id] && this.svp2[id] && this.svp3[id].sold!= null && this.svp2[id].sold!= null ){
               return this.svp2[id].sold - this.svp3[id].sold;
             }else{
               return "";
             }
           },
           soldDiff1(id){
-            if(this.svp2[id].sold!= null && this.svp1[id].sold!= null ){
+            if(this.svp2[id] && this.svp1[id] && this.svp2[id].sold!= null && this.svp1[id].sold!= null ){
               return this.svp1[id].sold - this.svp2[id].sold;
             }else{
               return "";
