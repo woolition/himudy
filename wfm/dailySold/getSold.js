@@ -87,13 +87,15 @@
       <div id="blank">空白，手机占位符，因为 KIWI浏览器滚动截图会出现黑影</div>
     `;
     let SoldViewPrice = GM_getValue("SoldViewPrice",{});
+    let dates = Object.keys(SoldViewPrice).sort();
+    let datesLength = dates.length;
       new Vue({
         el: "#diff",
         data:{
           trs: monitorList,
-          svp1: SoldViewPrice[Nacl.formatDate(new Date())],
-          svp2: SoldViewPrice[Nacl.formatDate(new Date(), -1)],
-          svp3: SoldViewPrice[Nacl.formatDate(new Date(), -2)],
+          svp1: SoldViewPrice[dates[datesLength-1]],
+          svp2: SoldViewPrice[dates[datesLength-2]],
+          svp3: SoldViewPrice[dates[datesLength-3]]
         },
         methods:{
           openLink(id){
