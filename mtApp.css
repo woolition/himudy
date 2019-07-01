@@ -130,6 +130,7 @@ SVG 转码方案来自 张鑫旭的工具 https://www.zhangxinxu.com/sp/svgo/
 .innerToolbar input{ flex-shrink: 1; }
 input:checked + label{background: lightskyblue;}
 li{list-style:none;}
+a[target]{cursor: pointer;}
 button, input[type="button"]{border-radius:3px;border:1px solid gray; padding: 3px 5px;background:#fff;box-shadow: 1px 1px 1px 1px skyblue;cursor:pointer;}
 button:hover{background:deepskyblue;color:#fff;}
 button:disabled, input[type="button"]:disabled{cursor: not-allowed; box-shadow: 1px 1px 1px 1px #ddd; color:#ddd; border:1px solid;}
@@ -183,6 +184,44 @@ nav>span:hover{color:cyan;}
 .hide{display:none !important;}
 .show{display: block !important;}
 
+
+/* #msger */
+#msger{
+    z-index: 999;
+    position: absolute;
+    right: 0;
+    top: 5%;
+    max-width:45%;
+    max-height: 90%;
+    overflow: auto;
+}
+.message {
+    font-family: '微软雅黑';
+    float: right;
+    clear: both;
+    right:0.3em;
+    background:#fff;
+    border: 1px dotted #2a3a40;
+    border-radius: 0.5em;
+    padding: 1em;
+    padding-right: 2em;
+}
+.message i{
+    font-size: 2em !important;
+    border-radius: 1em;
+    position:absolute;
+    right:0.2em;
+}
+
+.message i:hover:before{
+    background: cyan;
+    border-radius: 1em;
+}
+
+.warning{ background:#e6a23c !important; color:white; }
+.error{ background:#F56C6C !important; color:white; }
+.code{ font-family:Consolas !important; font-size:0.9em; }
+
 #comparePriceProject,
 /* #showPriceTable, */
 #productInfo,
@@ -211,8 +250,19 @@ fieldset{ border-radius: 5px; border: 1px solid #33333360; padding: 5px; margin:
 #comparePriceProject div[name='comparePackagesGroups']{right:0;}
 
 /* #showPriceTable CSS */
-#priceTable{overflow: auto;position: relative!important; height: 708px;}
-#priceTable table.cmpTable td:nth-child(3){ overflow-x:auto; }
+#priceTable{overflow: auto; position: relative!important; height: 708px;}
+#priceTable table.cmpTable td:nth-child(3):hover:after{
+    content: attr(data-title);
+    padding: 2px 4px;
+    color: #333;
+    background: white;
+    position: absolute;
+    left: 12em; 
+    white-space: nowrap; 
+    z-index: 1000;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 2px #222;
+}
 
 /*  productInfo CSS  */
 #productInfoDetail iframe{resize:vertical;}
@@ -293,6 +343,7 @@ li[data-background='#CC3'] {background: #CC3;}
 
 /* #followPrice CSS  */
 #dataBlock{
+    margin-top: 1.55em;
     display: grid;
     grid-template-columns: 3.5em auto;
     position: relative;
@@ -313,7 +364,7 @@ li[data-background='#CC3'] {background: #CC3;}
 .priceContainer{
     display: grid;
     grid-template-rows: 3.5em;
-    grid-template-columns: repeat(90, 3.5em);
+    grid-template-columns: repeat(120, 3.5em);
     grid-auto-columns: 3.5em;
     grid-gap: 2px;
     place-items: center;
@@ -371,5 +422,12 @@ li[data-background='#CC3'] {background: #CC3;}
     margin: 5px 0px;
 }
 #opt input[type="checkbox"],#opt input[type="checkbox"]{display: inline-block;}
+
+i[name='followPricePackageCalendar']{
+    position: absolute;
+    top: 2em;
+    z-index: 10;
+    background: white;
+}
 
 `);

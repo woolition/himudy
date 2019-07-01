@@ -1,7 +1,7 @@
 /* nacl.js 
  * author: NaCl 黄盐
- * mail: anix2012@126.com
- * last-modify: 2019-5-23
+ * mail: woolition@gmail.com
+ * last-modify: 2019-6-9
  */
 /* jshint esversion:6 */
 var Nacl = (function(){
@@ -22,6 +22,16 @@ var Nacl = (function(){
     let t = new Date(new Date(date).getTime() + 86400000*offset);
     // yyyy-mm-dd
     return `${t.getFullYear()}${spliter}${t.getMonth()+1 >9 ? t.getMonth()+1 : '0'+(t.getMonth()+1)}${spliter}${t.getDate() >9 ? t.getDate() : '0'+t.getDate()}`;
+  };
+
+  /* 格式化时间，在日期基础上扩展 */
+  O.formatTime = function(date,spliter=':'){
+    if(!(new Date(date) instanceof Date)) {
+      console.log("NaCl Hint: 传入日期有问题");
+      return;
+    }
+    let t = new Date(date);
+    return `${O.formatDate(date)} ${t.getHours()>9 ? t.getHours() : '0'+t.getHours()}${spliter}${t.getMinutes()>9 ? t.getMinutes() : '0'+t.getMinutes()}${spliter}${t.getSeconds()>9 ? t.getSeconds() : '0'+t.getSeconds()}`;
   };
   
   /* 进入全屏 */
