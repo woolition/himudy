@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         美团商家工具集
 // @namespace    https://raw.githubusercontent.com/woolition/himudy/master/app.user.js
-// @version      2.3
+// @version      2.6
 // @updateURL    https://raw.githubusercontent.com/woolition/himudy/master/app.user.js
 // @downloadURL  https://raw.githubusercontent.com/woolition/himudy/master/app.user.js
-// @description  美团景酒商家工具，不对外 更新时间 2019-7-1 11:28:47
+// @description  美团景酒商家工具，不对外 更新时间 2019-7-5
 // @author       ╮(╯▽╰)╭
 // @match        https://dabao.meituan.com/trippackage/apps.html
 // @include      https://dabao.meituan.com/trippackage/api/v2/deal/*/packages*
