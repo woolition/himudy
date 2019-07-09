@@ -4,7 +4,7 @@
 // @version      2.6
 // @updateURL    https://raw.githubusercontent.com/woolition/himudy/master/app.user.js
 // @downloadURL  https://raw.githubusercontent.com/woolition/himudy/master/app.user.js
-// @description  美团景酒商家工具，不对外 更新时间 2019-7-5
+// @description  美团景酒商家工具，不对外 更新时间 2019-7-9 10:52:51
 // @author       ╮(╯▽╰)╭
 // @match        https://dabao.meituan.com/trippackage/apps.html
 // @include      https://dabao.meituan.com/trippackage/api/v2/deal/*/packages*
@@ -27,7 +27,7 @@
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/productInfo.2019-7-1.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/dragSelect.2019-6-5.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/syncPNS.2019-7-1.jpg
-// @require      https://raw.githubusercontent.com/woolition/himudy/master/followPrice.2019-7-3.jpg
+// @require      https://raw.githubusercontent.com/woolition/himudy/master/followPrice.2019-7-9.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/manageData.2019-7-3.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/mtapp.UI.2019-7-5.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/dialog.2019-7-1.jpg

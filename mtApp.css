@@ -267,6 +267,7 @@ fieldset{ border-radius: 5px; border: 1px solid #33333360; padding: 5px; margin:
 
 /*  productInfo CSS  */
 #productInfoDetail iframe{resize:vertical;}
+#productInfoDetail fieldset{max-height: 100%; overflow: auto;}
 
 /*  priceTable CSS */ 
 a{text-decoration: none; margin: 2px 4px; padding: 2px; border-radius: 3px; background: yellowgreen;}
@@ -275,6 +276,8 @@ table tr td.o{background-color: #D3DB60;}
 table tr:first-of-type td.o{ background-color: #f33; }
 td{ white-space: nowrap; max-width: 150px; overflow: hidden;}
 table *{font-size: 0.8em;}
+
+#productInfoDetail
 
 /* .hiCheap{} */
 .hiExpensive{ background-color: #f33; }
