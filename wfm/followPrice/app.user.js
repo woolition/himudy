@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         马蜂窝商家工具集
 // @namespace    https://raw.githubusercontent.com/woolition/himudy/master/wfm/followPrice/app.user.js
-// @version      1.0
+// @version      1.2
 // @updateURL    https://raw.githubusercontent.com/woolition/himudy/master/wfm/followPrice/app.user.js
 // @downloadURL  https://raw.githubusercontent.com/woolition/himudy/master/wfm/followPrice/app.user.js
-// @description  马蜂窝景酒商家工具，不对外 更新时间 2019-7-1 14:43:36
+// @description  马蜂窝景酒商家工具，不对外 更新时间 2019-7-9 11:12:21
 // @author       ╮(╯▽╰)╭
 // @include      *://www.mafengwo.cn/sales/detail/stock/detail
 // @include      *://www.mafengwo.cn/sales/detail/stock/detail?groupId=*
