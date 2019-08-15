@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         马蜂窝商家工具集
 // @namespace    https://raw.githubusercontent.com/woolition/himudy/master/wfm/followPrice/app.user.js
-// @version      1.2
+// @version      1.3
 // @updateURL    https://raw.githubusercontent.com/woolition/himudy/master/wfm/followPrice/app.user.js
 // @downloadURL  https://raw.githubusercontent.com/woolition/himudy/master/wfm/followPrice/app.user.js
-// @description  马蜂窝景酒商家工具，不对外 更新时间 2019-7-9 11:12:21
+// @description  马蜂窝景酒商家工具，不对外 更新时间 2019-8-15 10:57:00
 // @author       ╮(╯▽╰)╭
 // @include      *://www.mafengwo.cn/sales/detail/stock/detail
 // @include      *://www.mafengwo.cn/sales/detail/stock/detail?groupId=*
@@ -25,7 +25,7 @@
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/mtApp.css
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/wfm/followPrice/getPrice.2019-7-1.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/makeComparePorject.2019-7-5.jpg
-// @require      https://raw.githubusercontent.com/woolition/himudy/master/wfm/followPrice/productInfo.2019-7-1.jpg
+// @require      https://raw.githubusercontent.com/woolition/himudy/master/wfm/followPrice/productInfo.2019-8-15.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/dragSelect.2019-6-5.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/syncPNS.2019-7-1.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/followPrice.2019-7-9.jpg
