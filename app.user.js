@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         美团商家工具集
 // @namespace    https://raw.githubusercontent.com/woolition/himudy/master/app.user.js
-// @version      2.9
+// @version      2.10
 // @updateURL    https://raw.githubusercontent.com/woolition/himudy/master/app.user.js
 // @downloadURL  https://raw.githubusercontent.com/woolition/himudy/master/app.user.js
 // @description  美团景酒商家工具，不对外 更新时间 2020-3-30 16:52:07
@@ -24,7 +24,7 @@
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/mtApp.css
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/mtGetPriceAndStock.2019-7-2.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/makeComparePorject.2019-7-5.jpg
-// @require      https://raw.githubusercontent.com/woolition/himudy/master/productInfo.2020-3-30.jpg
+// @require      https://raw.githubusercontent.com/woolition/himudy/master/productInfo.2020-4-4.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/dragSelect.2019-6-5.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/syncPNS.2019-7-1.jpg
 // @require      https://raw.githubusercontent.com/woolition/himudy/master/followPrice.2020-3-30.jpg
