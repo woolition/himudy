@@ -19,7 +19,7 @@
 // @resource     css  https://raw.githubusercontent.com/woolition/himudy/master/pirtc/ecirPerapmoc/ctripComparePrice.css
 // @require      https://cdn.bootcss.com/vue/2.6.11/vue.js
 // @resource     dragSelect https://raw.githubusercontent.com/woolition/himudy/master/ranuq/ecirPerapmoc/DragSelect.js
-// @resource     comparePrice https://raw.githubusercontent.com/woolition/himudy/master/pirtc/ecirPerapmoc/qunarComparePrice.main.js
+// @resource     comparePrice https://raw.githubusercontent.com/woolition/himudy/master/pirtc/ecirPerapmoc/ctripComparePrice.main.js
 // ==/UserScript==
 
 // 清空内容，准备CSS
