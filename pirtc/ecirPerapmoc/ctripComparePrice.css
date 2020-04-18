@@ -178,6 +178,18 @@
 #comparePrice .el-table tr td .cell{
   padding: 1px 5px !important;
 }
+span.progress {
+  float: right;
+  z-index: 999;
+  border: 2px solid #409eff;
+  background: #333;
+  color: white;
+  border-radius: 10px;
+  width: 50px;
+  padding: 5px;
+  top: 0;
+  max-height: 20px !important;
+}
 
 
 #followPriceDiv{
