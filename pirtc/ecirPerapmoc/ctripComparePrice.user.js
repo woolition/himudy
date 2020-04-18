@@ -2,7 +2,7 @@
 // @name         携程跟价工具
 // @namespace    http://tampermonkey.net/
 // @updateURL    https://raw.githubusercontent.com/woolition/himudy/master/pirtc/ecirPerapmoc/ctripComparePrice.user.js
-// @version      0.1
+// @version      0.2
 // @description  携程度假频道商家跟价工具
 // @author       ╮(╯▽╰)╭
 // @match        https://vacations.ctrip.com/tour/detail/comparePrice.html
